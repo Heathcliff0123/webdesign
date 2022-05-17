@@ -1,3 +1,97 @@
-body{
-    background: white url(images/LetonPortrait.jpeg);
+#face
+{
+    width: 200px;
+    border-radius: 100%;
+}
+
+#overview{
+    background-color: rgb(19, 106, 204);
+    color: aliceblue;
+ 
+  
+}
+ .col-10{
+    font-size:xx-large;
+    text-align: center;
+    
+} 
+@media only screen and (max-width= 650px){
+    .background{
+        
+        background-image: url(images/b_small.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+       background-repeat: no-repeat;
+       background-size:contain;
+       background-position-x: center;
+       background-color:rgb(182, 182, 184);
+       width: 100%;
+       height: 600px;
+    }
+}
+
+@media only screen and (max-width= 1000px){
+    .background{
+        
+        background-image: url(images/b_medium.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+       background-repeat: no-repeat;
+       background-size:contain;
+       background-position-x: center;
+       background-color:rgb(182, 182, 184);
+       width: 100%;
+       height: 600px;
+    }
+}
+
+
+@media only screen {
+    .background{
+        background-image:url(images/b_large.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+       background-repeat: no-repeat;
+       background-size:contain;
+       background-position-x: center;
+       background-color:rgb(182, 182, 184);
+       width: 100%;
+       height: 600px;
+       align-content: center center;
+    }
+}
+#coding_languages{
+    background-color:darkblue;
+    text-align: center;
+    color: aliceblue;
+}
+.navbar{
+    align-items: center center;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    
+}
+#workExp{
+    background-color: rgb(19, 106, 204);
+    color: aliceblue;
+}
+#form{
+    background-color:darkblue;
+    color: aliceblue;
+}
+#External_links{
+    align-items: center center;
+    background-color: rgb(19, 106, 204);
+    color: aliceblue;
+    height: 120px;
+}
+#facebook{
+    transition: all .2s ease-in-out;
+}
+#facebook:hover{
+    transform: scale(5);
 }
