@@ -10,6 +10,10 @@
  
   
 }
+#overview:hover{
+    background-color: brown;
+
+}
  .col-10{
     font-size:xx-large;
     text-align: center;
@@ -68,6 +72,10 @@
     text-align: center;
     color: aliceblue;
 }
+#coding_languages:hover{
+    background-color: brown;
+
+}
 .navbar{
     align-items: center center;
     height: 50px;
@@ -75,13 +83,22 @@
     background-color: black;
     
 }
+
 #workExp{
     background-color: rgb(19, 106, 204);
     color: aliceblue;
 }
+#workExp:hover{
+    background-color: brown;
+
+}
 #form{
     background-color:darkblue;
     color: aliceblue;
+}
+#form:hover{
+    background-color: brown;
+
 }
 #External_links{
     align-items: center center;
@@ -89,9 +106,10 @@
     color: aliceblue;
     height: 120px;
 }
-#facebook{
-    transition: all .2s ease-in-out;
-}
-#facebook:hover{
-    transform: scale(5);
+
+
+
+#External_links:hover{
+    background-color: brown;
+
 }
